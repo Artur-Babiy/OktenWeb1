@@ -1,0 +1,37 @@
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    
+    margin:0 auto ;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.desc {
+    width: 25%;
+    border: 2px solid silver;
+    background-color: #f8f9fa;
+}
+
+h4 {
+    text-align: center;
+}
+.right__image {
+    width: 20%;
+    border: 2px solid silver;
+    background-color: #f8f9fa;
+}
+.container__right {
+    position: absolute;
+    left: 1600px;
+    top: 140px;
+    right: 0;
+    background-color: #F8F9FA;
+
+    width: 20%;
+    border: 1px solid #333;
+}
